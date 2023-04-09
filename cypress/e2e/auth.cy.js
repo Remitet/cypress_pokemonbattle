@@ -38,7 +38,7 @@ describe("Тесты авторизации", () => {
       [[2, "Неверные логин или пароль"]],
     ],
   ].forEach((type) => {
-    it(type[0], () => {
+    it(type[0], { tags: "@smoke" }, () => {
       pageAuth.typeInField(0, type[1]);
       pageAuth.typeInField(1, type[2]);
       pageAuth.clickButton("buttonEnter");

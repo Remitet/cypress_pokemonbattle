@@ -16,7 +16,7 @@ export class BasePage {
   /**
    * Метод для ввода текста в поле
    * @param {number} index - индекс поля для ввода
-   * @param {string} text - вводимый текс
+   * @param {string} text - вводимый текст
    */
   typeInField(index, text) {
     this.inputField.eq(index).scrollIntoView().clear().type(text);

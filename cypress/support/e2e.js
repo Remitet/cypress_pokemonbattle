@@ -14,7 +14,11 @@
 // ***********************************************************
 
 // Import commands.js using ES2015 syntax:
-import './commands'
+import './commands';
+import '@shelex/cypress-allure-plugin';
+import registerCypressGrep from '@cypress/grep';
+registerCypressGrep();
+require('cypress-terminal-report/src/installLogsCollector')();
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
