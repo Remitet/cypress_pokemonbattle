@@ -19,7 +19,7 @@ module.exports = defineConfig({
     },
     viewportWidth: 1920,
     viewportHeight: 1080,
-    baseUrl: "https://pokemonbattle-stage.me",
+    baseUrl: "https://pokemonbattle.me/",
     video: false,
     blockHosts: ["*yandex.ru"],
     videosFolder: "./output/videos",
