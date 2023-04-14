@@ -11,8 +11,8 @@ module.exports = defineConfig({
       return config;
     },
     env: {
-      login: "autotest@mail.com",
-      password: "Autotest!1",
+      login: "autotest@prod.ru",
+      password: "Autotest1!",
       allure: true,
       allureAttachRequests: true,
       allureResultsPath: "./AllureReport/allure-results",
