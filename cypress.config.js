@@ -25,6 +25,6 @@ module.exports = defineConfig({
     videosFolder: "./output/videos",
     reportsFolder: "./output/reports",
     downloadsFolder: "/output/downloads",
-    screenshotsFolder: "./AllureReport/screenshots",
+    screenshotsFolder: "./AllureReport/screenshots"
   },
 });
